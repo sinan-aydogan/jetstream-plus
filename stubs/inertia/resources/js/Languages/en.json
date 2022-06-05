@@ -1,0 +1,15 @@
+{
+    "dashboard" : {
+        "title": "Dashboard"
+    },
+    "welcome": {
+        "title": "Welcome",
+        "documentation": "Documentation",
+        "message1": "Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.",
+        "message2": "Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.",
+        "message3": "Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.",
+        "vibrantEcosystem": "Vibrant Ecosystem",
+        "message4": "Laravel's robust library of first-party tools and libraries, such as {forge}, {vapor}, {nova}, and {envoyer} help you take your projects to the next level. Pair them with powerful open source libraries like {cashier}, {dusk}, {echo}, {horizon}, {sanctum}, {telescope}, and more.",
+        "shop": "Shop"
+    }
+}

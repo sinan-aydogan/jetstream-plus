@@ -1,0 +1,15 @@
+{
+    "dashboard" : {
+        "title": "Kontrol Paneli"
+    },
+    "welcome": {
+        "title": "Hoşgeldiniz",
+        "documentation": "Dökümantasyon",
+        "message1": "Laravel, yapının her yönünü kapsayan harika, kapsamlı belgelere sahiptir. İster Laravel'de yeni tanışın, ister Laravel'de deneyimli olun, tüm belgeleri baştan sona okumanızı öneririz.",
+        "message2": "Laracasts, Laravel, PHP ve JavaScript geliştirme üzerine binlerce video eğitimi sunar. Onlara göz atın, kendiniz görün ve bu süreçte geliştirme becerilerinizi büyük ölçüde yükseltin.",
+        "message3": "Laravel News, yeni paket yayınları ve öğreticiler de dahil olmak üzere, Laravel ekosistemindeki en son ve en önemli haberleri bir araya getiren, topluluk tarafından yönlendirilen bir portal ve haber bültenidir.",
+        "vibrantEcosystem": "Canlı Ekosistem",
+        "message4": "{forge}, {vapor}, {nova} ve {envoyer} gibi Laravel'in birinci parti kütüphaneleri ile projelerinize seviye atlatabileceğiniz gibi {cashier}, {dusk}, {echo}, {horizon}, {sanctum}, {telescope} ve daha bunlar gibi açık kaynaklı diğer kütüphaneler ile projenize güç katın.",
+        "shop": "Mağaza"
+    }
+}

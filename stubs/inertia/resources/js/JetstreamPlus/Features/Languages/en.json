@@ -1,0 +1,274 @@
+{
+    "system": {
+        "auth": {
+            "name": {
+                "label": "Name"
+            },
+            "password": {
+                "label": "Password",
+                "reset": {
+                    "label": "Reset Password",
+                    "title": "Reset Password"
+                },
+                "forgot": {
+                    "forgotYourPassword": "Forgot your password?",
+                    "title": "Forgot Password",
+                    "description": "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.",
+                    "resetButton": "Email Password Reset Link"
+                },
+                "confirm": {
+                    "label": "Confirm Password",
+                    "title": "Confirm Password",
+                    "description": "For your security, please confirm your password to continue."
+                },
+                "update": {
+                    "label": "Update Password",
+                    "title": "Update Password",
+                    "description": "Ensure your account is using a long, random password to stay secure",
+                    "currentPassword": "Current Password",
+                    "newPassword": "New Password"
+                }
+            },
+            "email": {
+                "label": "Email",
+                "verify": {
+                    "label": "Verify Email",
+                    "title": "Email Verification",
+                    "description": "Before continuing, could you verify your email address by clicking on the link we just emailed to you? If you didn't receive the email, we will gladly send you another.",
+                    "linkSent": "A new verification link has been sent to the email address you provided in your profile settings.",
+                    "resendLink": "Resend Verification Email",
+                    "unverifiedMessage": "Your email address isn't verified.",
+                    "verifyLink": "Click here to re-send the verification email.",
+                    "verifyLinkSentMessage": "A new verification link has been sent to your email address."
+                }
+            },
+            "profile": {
+                "label": "Profile",
+                "title": "Profile",
+                "edit": {
+                    "label": "Edit Profile"
+                },
+                "manage": {
+                    "label": "Manage Profile",
+                    "title": "Manage Profile"
+                },
+                "delete": {
+                    "label": "Delete Profile",
+                    "title": "Delete Profile",
+                    "description": "Permanently delete your account.",
+                    "warning": "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.",
+                    "areYouSure": "Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account."
+                },
+                "information": {
+                    "title": "Account Information",
+                    "description": "Update your account's profile information and email address."
+                },
+                "avatar": {
+                    "label": "Profile Photo",
+                    "selectAvatar": "Search A New Photo",
+                    "removeAvatar": "Remove Photo"
+                }
+            },
+            "logout": {
+                "label": "Log Out",
+                "otherDevices": {
+                    "title": "Browser Sessions",
+                    "description": "Manage and log out your active sessions on other browsers and devices.",
+                    "info": "If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.",
+                    "lastActive": "Last active",
+                    "thisDevice": "This Device",
+                    "modal": {
+                        "title": "Log Out of Browser Sessions",
+                        "description": "Please enter your password to confirm you would like to log out of your other browser sessions across all of your devices."
+                    },
+                    "logOutOtherDevices": "Log Out Other Devices"
+                }
+            },
+            "register": {
+                "label": "Register",
+                "title": "Register",
+                "description": "Register for a new account",
+                "button": "Register"
+            },
+            "login": {
+                "label": "Login",
+                "title": "Login"
+            },
+            "rememberMe": {
+                "label": "Remember Me"
+            },
+            "alreadyRegistered": {
+                "label": "Already Registered?"
+            },
+            "term": {
+                "terms": "Terms",
+                "privacyPolicy": "Privacy Policy",
+                "agreeToTerms": "I agree to {term} and {privacyPolicy}"
+            },
+            "twoFactorAuth": {
+                "title": "Two Factor Authentication",
+                "description": "Add additional security to your account using two factor authentication.",
+                "confirm": {
+                    "title": "Two Factor Authentication",
+                    "description": "Please confirm access to your account by entering the authentication code provided by your authenticator application.",
+                    "emergencyCodes": "Please confirm access to your account by entering one of your emergency recovery codes."
+                },
+                "code": {
+                    "label": "OTP Code",
+                    "recoveryCode": "Recovery Code | Recovery Codes",
+                    "showRecoveryCodes": "Show Recovery Codes",
+                    "useRecoveryCode": "Use a recovery code",
+                    "useAuthenticationCode": "Use an authentication code",
+                    "setupKey": "Setup Key",
+                    "regenerateRecoveryCodes": "Regenerate Recovery Codes"
+                },
+                "enabled": {
+                    "title": "You have enabled two factor authentication.",
+                    "description": " Two factor authentication is now enabled. Scan the following QR code using your phone's authenticator application.",
+                    "info": " Store these recovery codes in a secure password manager. They can be used to recover access to your account if your two factor authentication device is lost."
+                },
+                "disabled": {
+                    "title": "You have not enabled two factor authentication.",
+                    "description": "When two factor authentication is enabled, you will be prompted for a secure, random token during authentication. You may retrieve this token from your phone's Google Authenticator application."
+                },
+                "finish": {
+                    "title": "Finish enabling two factor authentication. ",
+                    "description": "To finish enabling two factor authentication, scan the following QR code using your phone's authenticator application or enter the setup key and provide the generated OTP code."
+                }
+            },
+            "api": {
+                "label": "API Token | API Tokens",
+                "title": "API Token | API Tokens",
+                "create": {
+                    "title": "Create API Token",
+                    "description": "API tokens allow third-party services to authenticate with our application on your behalf."
+                },
+                "manage": {
+                    "title": "Manage API Tokens",
+                    "description": "You may delete any of your existing tokens if they are no longer needed."
+                },
+                "delete": {
+                    "title": "Delete API Token",
+                    "description": "Are you sure you want to delete this API token?"
+                },
+                "token": {
+                    "name": "Token Name",
+                    "permissions": "Token Permissions",
+                    "view": {
+                        "description": "Please copy your new API token. For your security, it won't be shown again."
+                    }
+                },
+                "lastUsed": "Last used {0}"
+            },
+            "team": {
+                "name": {
+                    "label": "Team Name"
+                },
+                "owner": {
+                    "label": "Team Owner"
+                },
+                "update": {
+                    "identity": {
+                        "title": "Team Identity",
+                        "description": "The team's name and owner information."
+                    }
+                },
+                "delete": {
+                    "label": "Delete Team",
+                    "title": "Delete Team",
+                    "description": "Permanently delete this team.",
+                    "warning": "Once a team is deleted, all of its resources and data will be permanently deleted. Before deleting this team, please download any data or information regarding this team that you wish to retain.",
+                    "areYouSure": "Are you sure you want to delete this team? Once a team is deleted, all of its resources and data will be permanently deleted."
+                },
+                "member": {
+                    "title": "Team Members",
+                    "description": "All of the people that are part of this team.",
+                    "manage": {
+                        "title": "Manage Team Members",
+                        "description": "Add or remove team members."
+                    },
+                    "add": {
+                        "title": "Add Team Member",
+                        "description": "Add a new team member to your team, allowing them to collaborate with you.",
+                        "provideEmail": "Please provide the email address of the person you would like to add to this team."
+                    },
+                    "pending": {
+                        "title": "Pending Team Invitations",
+                        "description": "These people have been invited to your team and have been sent an invitation email. They may join the team by accepting the email invitation."
+                    },
+                    "leave": {
+                        "title": "Leave Team",
+                        "areYouSure": "Are you sure you would like to leave this team?"
+                    },
+                    "remove": {
+                        "title": "Remove Team Member",
+                        "areYouSure": "Are you sure you would like to remove this person from the team?"
+                    }
+                },
+                "role": {
+                    "label": "Role|Roles",
+                    "manage": {
+                        "title": "Manage Role",
+                        "description": "Add or remove team roles."
+                    }
+                },
+                "settings": {
+                    "title": "Team Settings",
+                    "label": "Team Settings",
+                    "manage": "Manage Teams",
+                    "switch": "Switch Teams"
+                },
+                "create": {
+                    "label": "Create Team",
+                    "title": "Create Team",
+                    "teamDetails": {
+                        "title": "Team Details",
+                        "description": "Create a new team to collaborate with others on projects."
+                    }
+                }
+            },
+            "language": {
+                "title": "Display Language",
+                "description": "You can change the display language."
+            },
+            "dis-empower": "Dis-empower"
+        },
+        "account": {
+            "theme": "Theme",
+            "themeDesc": "You can change the theme.",
+            "darkTheme": "Dark",
+            "darkThemeDesc": "Dark theme.",
+            "lightTheme": "Light",
+            "lightThemeDesc": "Light theme.",
+            "autoTheme": "Auto",
+            "autoThemeDesc": "Depended on your system theme."
+        },
+        "global": {
+            "action": {
+                "create": "Create",
+                "delete": "Delete",
+                "close": "Close",
+                "cancel": "Cancel",
+                "save": "Save",
+                "add": "Add",
+                "confirm": "Confirm",
+                "enable": "Enable",
+                "disable": "Disable",
+                "leave": "Leave",
+                "remove": "Remove"
+            },
+            "message": {
+                "created": "Created",
+                "deleted": "Deleted",
+                "updated": "Updated",
+                "saved": "Saved",
+                "added": "Added",
+                "enabled": "Enabled",
+                "disabled": "Disabled",
+                "done": "Done",
+                "left": "Left",
+                "removed": "Removed"
+            }
+        }
+    }
+}

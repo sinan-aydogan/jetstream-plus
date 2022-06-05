@@ -1,0 +1,274 @@
+{
+    "system": {
+        "auth": {
+            "name": {
+                "label": "İsim"
+            },
+            "password": {
+                "label": "Şifre",
+                "reset": {
+                    "label": "Şifreyi sıfırla",
+                    "title": "Şifreyi Sıfırla"
+                },
+                "forgot": {
+                    "forgotYourPassword": "Şifrenizi mi unuttunuz?",
+                    "title": "Şifremi Unuttum",
+                    "description": "Şifreni unuttunuz mu? Endişe etmeyin sadece e-posta adresinizi giriniz. Şifrenizi sıfırlamak için size bir bağlantı göndereceğiz.",
+                    "resetButton": "Şifre Sıfırlama E-Postası İste"
+                },
+                "confirm": {
+                    "label": "Şifreyi Onayla",
+                    "title": "Şifreyi Onayla",
+                    "description": "Güvenliğiniz ve bu işleme devam edebilmek için şifrenizi onaylayınız."
+                },
+                "update": {
+                    "label": "Şifreyi Güncelle",
+                    "title": "Şifreyi Güncelle",
+                    "description": "Uzun ve karmaşık bir şifre kullanmak seni güvende tutar.",
+                    "currentPassword": "Mevcut Şifre",
+                    "newPassword": "Yeni Şifre"
+                }
+            },
+            "email": {
+                "label": "Email",
+                "verify": {
+                    "label": "Email Adresini Doğrula",
+                    "title": "Email Adresini Doğrula",
+                    "description": "Devam etmeden önce, size az önce e-postayla gönderdiğimiz bağlantıya tıklayarak e-posta adresinizi doğrulayabilir misiniz? E-postayı almadıysanız, size memnuniyetle başka bir e-posta göndeririz.",
+                    "linkSent": "Profil ayarlarınızda belirttiğiniz e-posta adresine yeni bir doğrulama bağlantısı gönderildi.",
+                    "resendLink": "Doğrulama e-postasını Tekrar Gönder",
+                    "unverifiedMessage": "E-posta adresiniz doğrulanmadı.",
+                    "verifyLink": "Doğrulama e-postasını yeniden göndermek için burayı tıklayın.",
+                    "verifyLinkSentMessage": "E-posta adresinize yeni bir doğrulama bağlantısı gönderildi."
+                }
+            },
+            "profile": {
+                "label": "Profil",
+                "title": "Profil",
+                "edit": {
+                    "label": "Profili Düzenle"
+                },
+                "manage": {
+                    "label": "Profili Yönet",
+                    "title": "Profili Yönet"
+                },
+                "delete": {
+                    "label": "Profili Sil",
+                    "title": "Profili Sil",
+                    "description": "Hesabınızı kalıcı olarak silin.",
+                    "warning": "Hesabınız silindiğinde, tüm kaynakları ve verileri kalıcı olarak silinecektir. Hesabınızı silmeden önce, lütfen saklamak istediğiniz tüm verileri veya bilgileri indirin.",
+                    "areYouSure": "Hesabınızı silmek istediğinizden emin misiniz? Hesabınız silindiğinde, tüm kaynakları ve verileri kalıcı olarak silinecektir. Hesabınızı kalıcı olarak silmek istediğinizi onaylamak için lütfen şifrenizi girin."
+                },
+                "information": {
+                    "title": "Hesap Bilgileri",
+                    "description": "Hesabınızın profil bilgilerini ve e-posta adresini güncelleyin."
+                },
+                "avatar": {
+                    "label": "Profil Resmi",
+                    "selectAvatar": "Profil Resmi Seç",
+                    "removeAvatar": "Profil Resmini Kaldır"
+                }
+            },
+            "logout": {
+                "label": "Çıkış Yap",
+                "otherDevices": {
+                    "title": "Oturum Açılan Cihazlar",
+                    "description": "Hesabınızla oturum açtığınız cihazlarınızı yönetin.",
+                    "info": "Eğer listelenen cihazlardan tanımadıklarınız varsa, Diğer Cihazlardaki Oturumları Kapat düğmesini tıklayınız.",
+                    "lastActive": "En son oturum açılan",
+                    "thisDevice": "Bu Cihaz",
+                    "modal": {
+                        "title": "Diğer Cihazlardaki Oturumları Kapat",
+                        "description": "Diğer cihazlarda açılmış olan oturumları kapatma isteğinizi lüften şifrenizi girerek onaylayınız."
+                    },
+                    "logOutOtherDevices": "Diğer Cihazlardaki Oturumları Kapat"
+                }
+            },
+            "register": {
+                "label": "Kayıt Ol",
+                "title": "Kayıt Ol",
+                "description": "Hesabınızı oluşturun",
+                "button": "Kayıt Ol"
+            },
+            "login": {
+                "label": "Kayıt Ol",
+                "title": "Kayıt Ol"
+            },
+            "rememberMe": {
+                "label": "Beni Hatırla"
+            },
+            "alreadyRegistered": {
+                "label": "Zaten hesabın var mı?"
+            },
+            "term": {
+                "terms": "Kullanım Şartları",
+                "privacyPolicy": "Gizlilik Politikası",
+                "agreeToTerms": "{term} ve {privacyPolicy} nı onaylıyorum"
+            },
+            "twoFactorAuth": {
+                "title": "İki Aşamalı Doğrulama",
+                "description": "Hesabınızda iki faktörlü doğrulamayı açarak, hesabınızı yabancılardan koruyun.",
+                "confirm": {
+                    "title": "İki Aşamalı Doğrulama",
+                    "description": "Lütfen kimlik doğrulama uygulamanız tarafından sağlanan kimlik doğrulama kodunu girerek hesabınıza erişimi onaylayın.",
+                    "emergencyCodes": "Lütfen acil durum kurtarma kodlarınızdan birini girerek hesabınıza erişimi onaylayın."
+                },
+                "code": {
+                    "label": "OTP Kodu",
+                    "recoveryCode": "Kurtarma Kodu | Kurtarma Kodları",
+                    "showRecoveryCodes": "Kurtarma Kodlarını Göster",
+                    "useRecoveryCode": "Kurtarma kodu Kullan",
+                    "useAuthenticationCode": "Kimlik doğrulama kodu Kullan",
+                    "setupKey": "Kurulum Anahtarı",
+                    "regenerateRecoveryCodes": "Kurtarma Kodlarını Yeniden Oluştur"
+                },
+                "enabled": {
+                    "title": "İki aşamalı doğrulamayı aktif hale getirdiniz.",
+                    "description": "İki aşamalı doğrulamayı, QR Kodu telefonunuzdaki iki aşamalı doğrulama uygulaması ile tarayarak veya kurulum anahtarını girerek telefonunuza ekleyebilirsiniz.",
+                    "info": "Kurtarma kodlarını güven bir yerde sakladığınızdan emin olun. İki aşamalı doğrulama uygulamanız ile problem yaşarsanız bu kodları hesabınızı kurtarmak için kullanacaksanız."
+                },
+                "disabled": {
+                    "title": "Henüz iki aşamalı doğrulamayı aktifleştirmediniz.",
+                    "description": "İki aşamalı doğrulamayı aktif hale getirirseniz, benzersiz ve güvenli bir oturum tokeniniz olacak. Bu jetonu(token) telefonunuzdan Google Authenticator uygulaması ilede kullanabilirsiniz."
+                },
+                "finish": {
+                    "title": "İki faktörlü doğrulamayı aktif et.",
+                    "description": "İki aşamalı kimlik doğrulamayı etkinleştirmeyi tamamlamak için telefonunuzun kimlik doğrulama uygulamasını kullanarak aşağıdaki QR kodunu tarayın veya kurulum anahtarını girin ve oluşturulan OTP kodunu sağlayın."
+                }
+            },
+            "api": {
+                "label": "API Jetonu(Token) | API Jetonları(Token)",
+                "title": "API Jetonu(Token) | API Jetonları(Token)",
+                "create": {
+                    "title": "API Jetonu(Token) Oluştur",
+                    "description": "API Jetonları(Token), üçüncü taraf hizmetlerin sizin adınıza uygulamamızla kimlik doğrulaması yapmasına olanak tanır."
+                },
+                "manage": {
+                    "title": "API Jetonlarını(Token) Yönet",
+                    "description": "Artık gerekli değilse mevcut jetonlarınızdan(Token) herhangi birini silebilirsiniz."
+                },
+                "delete": {
+                    "title": "API Jetonunu(Token) Sil",
+                    "description": "Jetonu(Token) silmek istediğinizden emin misiniz?"
+                },
+                "token": {
+                    "name": "Jeton(Token) İsmi",
+                    "permissions": "Jeton(Token) İzinleri",
+                    "view": {
+                        "description": "Lütfen yeni API Jetonunu(Token) kopyalayın. Güvenliğiniz için tekrar gösterilmeyecektir."
+                    }
+                },
+                "lastUsed": "Son kullanılma {0}"
+            },
+            "team": {
+                "name": {
+                    "label": "Takım İsmi"
+                },
+                "owner": {
+                    "label": "Takım Sahibi"
+                },
+                "update": {
+                    "identity": {
+                        "title": "Takım Kimliği",
+                        "description": "Takım ismi ve sahibinin bilgileri."
+                    }
+                },
+                "delete": {
+                    "label": "Takımı Sil",
+                    "title": "Takımı Sil",
+                    "description": "Takımı kalıcı olarak sil.",
+                    "warning": "Bir takım silindiğinde, tüm kaynakları ve verileri kalıcı olarak silinir. Bu takımı silmeden önce, lütfen bu takımla ilgili saklamak istediğiniz tüm verileri veya bilgileri indirin.",
+                    "areYouSure": "Bu takımı silmek istediğinizden emin misiniz? Bir takım silindiğinde, tüm kaynakları ve verileri kalıcı olarak silinir."
+                },
+                "member": {
+                    "title": "Takım Üyeleri",
+                    "description": "Bu takımın bir parçası olan tüm insanlar.",
+                    "manage": {
+                        "title": "Takım Üyelerini Yönet",
+                        "description": "Takım üyeleri ekleyin veya kaldırın."
+                    },
+                    "add": {
+                        "title": "Takım Üyesi Ekle",
+                        "description": "Takımıza yeni bir takım üyesi ekleyerek sizinle işbirliği yapmalarını sağlayın.",
+                        "provideEmail": "Lütfen bu takıma eklemek istediğiniz kişinin e-posta adresini girin."
+                    },
+                    "pending": {
+                        "title": "Bekleyen Takım Davetiyeleri",
+                        "description": "Bu kişiler takımınıza davet edildi ve bir davet e-postası gönderildi. E-posta davetini kabul ederek takıma katılabilirler."
+                    },
+                    "leave": {
+                        "title": "Takımdan Ayrıl",
+                        "areYouSure": "Bu takımdan ayrılmak istediğinden emin misin?"
+                    },
+                    "remove": {
+                        "title": "Takım Üyesini Kaldır",
+                        "areYouSure": "Bu kişiyi takımdan çıkarmak istediğinizden emin misiniz?"
+                    }
+                },
+                "role": {
+                    "label": "Rol|Roller",
+                    "manage": {
+                        "title": "Rolleri Yönet",
+                        "description": "Takım rolleri ekleyin veya kaldırın."
+                    }
+                },
+                "settings": {
+                    "title": "Takım Ayarları",
+                    "label": "Takım Ayarları",
+                    "manage": "Takımları Yönet",
+                    "switch": "Takım Değiştir"
+                },
+                "create": {
+                    "label": "Takım Oluştur",
+                    "title": "Takım Oluştur",
+                    "teamDetails": {
+                        "title": "Takım Detayları",
+                        "description": "Projelerde başkalarıyla işbirliği yapmak için yeni bir ekip oluşturun."
+                    }
+                }
+            },
+            "language": {
+                "title": "Görüntüleme Dili",
+                "description": "Görüntüleme dilini değiştirebilirsiniz."
+            },
+            "dis-empower": "Yetkiyi Kaldır"
+        },
+        "account": {
+            "theme": "Theme",
+            "themeDesc": "You can change the theme.",
+            "darkTheme": "Dark",
+            "darkThemeDesc": "Dark theme.",
+            "lightTheme": "Light",
+            "lightThemeDesc": "Light theme.",
+            "autoTheme": "Auto",
+            "autoThemeDesc": "Depended on your system theme."
+        },
+        "global": {
+            "action": {
+                "create": "Oluştur",
+                "delete": "Sil",
+                "close": "Kapat",
+                "cancel": "İptal",
+                "save": "Kaydet",
+                "add": "Ekle",
+                "confirm": "Onayla",
+                "enable": "Aktif Et",
+                "disable": "Devre Dışı Bırak",
+                "leave": "Ayrıl",
+                "remove": "Kaldır"
+            },
+            "message": {
+                "created": "Oluşturuldu",
+                "deleted": "Silindi",
+                "updated": "Güncellendi",
+                "saved": "Kaydedildi",
+                "added": "Eklendi",
+                "enabled": "Aktifleştirildi",
+                "disabled": "Devre dışı bırakıldı",
+                "done": "Tamamlandı",
+                "left": "Ayrıldı",
+                "removed": "Kaldırıldı"
+            }
+        }
+    }
+}
